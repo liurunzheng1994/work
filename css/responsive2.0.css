@@ -1,0 +1,315 @@
+@charset "utf-8";
+@import url('../whirfonts/fonts.css');
+* {
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%
+}
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #666;
+  background: #fff;
+  font-family: "Microsoft YaHei";
+  -webkit-text-size-adjust: none;
+  /*取出点击出现半透明的灰色背景*/
+  -webkit-tap-highlight: rgba(0, 0, 0, 0);
+  /*控制内容的可选择性*/
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+  -webkit-appearance: none;
+}
+ul, li, form, dl, dt, dd, div, ol, figure, article, nav, menu, aside, pre {
+  padding: 0;
+  margin: 0;
+}
+.ul, .ul li {
+  list-style: none;
+}
+table, table td {
+  border-collapse: collapse;
+}
+table {
+  border-spacing: 0;
+}
+table td, select, input, textarea {
+  font-size: 14px;
+}
+select, input, textarea {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+}
+select, input, textarea, pre {
+  font-family: "Microsoft YaHei";
+}
+img {
+  border: none;
+  max-width: 100%;
+  vertical-align: middle;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 去掉链接触摸高亮 */
+}
+a:hover {
+  color: #47a0ec;
+  text-decoration: none;
+}
+a:focus {
+  color: #333;
+  outline: none;
+  -moz-outline: none;
+}
+a:active {
+  color: #333;
+}
+pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+.clear {
+  clear: both;
+  height: 0px;
+  overflow: hidden;
+  zoom: 0;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.dot {
+  display: block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.dot2, .dot3, .dot4, .dot5, .dot6 {
+  display: -webkit-box;
+  display: box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+}
+.dot2 {
+  -webkit-line-clamp: 2;
+}
+.dot3 {
+  -webkit-line-clamp: 3;
+}
+.dot4 {
+  -webkit-line-clamp: 4;
+}
+.dot5 {
+  -webkit-line-clamp: 4;
+}
+.dot6 {
+  -webkit-line-clamp: 4;
+}
+.ytable {
+  display: table;
+  width: 100%;
+}
+.ytable-fixed {
+  table-layout: fixed;
+}
+.ytable-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.Ispic {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+:after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+.nM {
+  margin: 0;
+}
+.nP {
+  padding: 0;
+}
+select.select-css {
+	border: solid 1px #000;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+    background-repeat:  no-repeat;
+    background-position:  98% center;
+    background-color:  transparent;
+	padding-right: 20px;
+    padding-left: 10px;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select.select-css::-ms-expand {
+display: none;
+}
+/**初始 End**/
+.w22, .w75 {
+  padding-bottom: 4%;
+}
+@media(min-width:1025px) {
+  .fl {
+    float: left;
+  }
+  .fr {
+    float: right;
+  }
+  .w22 {
+    width: 22%;
+  }
+  .w75 {
+    width: 75%;
+  }
+}
+.img-block{
+    display: block;
+    width: 100%;
+}
+/*↑↑↑如修改栏目左右结构宽度比例 请不要修改这里的  在style.css 加上修改*/
+/*用于图片变黑白*/
+.grayscale{filter:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='saturate' values='0'/></filter></svg>#grayscale");-webkit-filter:grayscale(1);filter:grayscale(1);filter:gray}.grayscale.grayscale-fade{transition:filter .5s;}@media screen and (-webkit-min-device-pixel-ratio:0){.grayscale.grayscale-fade{-webkit-transition:-webkit-filter .5s;transition:-webkit-filter .5s;}}.grayscale.grayscale-fade:hover,.grayscale.grayscale-off{-webkit-filter:grayscale(0);filter:grayscale(0)}.grayscale.grayscale-replaced{-webkit-filter:none;filter:none}.grayscale.grayscale-replaced>svg{-webkit-transition:opacity .5s ease;transition:opacity .5s ease;opacity:0}.flipInY .grayscale.grayscale-replaced>svg {opacity:1;}.grayscale.grayscale-replaced.grayscale-fade:hover>svg,.grayscale.grayscale-replaced.grayscale-off>svg{opacity:0}
+/**页面框架 End**/
+.auto {
+  margin: 0 auto;
+}
+.w_96{width: 96%;}
+.auto_1280 {
+  max-width: 1280px;
+}
+@media(max-width:1280px) {
+  .auto_1280 {
+    padding: 0 2%;
+  }
+}
+.auto_1200 {
+  max-width: 1200px;
+}
+@media(max-width:1200px) {
+  .auto_1200 {
+    padding: 0 2%;
+  }
+}
+.auto_1180 {
+  max-width: 1180px;
+}
+@media(max-width:1180px) {
+  .auto_1180 {
+    padding: 0 2%;
+  }
+}
+.auto_1150 {
+  max-width: 1150px;
+}
+@media(max-width:1150px) {
+  .auto_1150 {
+    padding: 0 2%;
+  }
+}
+.auto_1100 {
+  max-width: 1100px;
+}
+@media(max-width:1100px) {
+  .auto_1100 {
+    padding: 0 2%;
+  }
+}
+.auto_1050 {
+  max-width: 1050px;
+}
+@media(max-width:1050px) {
+  .auto_1050 {
+    padding: 0 2%;
+  }
+}
+.auto_1000 {
+  max-width: 1000px;
+}
+@media(max-width:1000px) {
+  .auto_1000 {
+    padding: 0 2%;
+  }
+}
+.auto_950 {
+  max-width: 950px;
+}
+@media(max-width:950px) {
+  .auto_950 {
+    padding: 0 2%;
+  }
+}
+/*by 20201020*/
+/*******************************
+open-search
+********************************/
+.open-search{cursor: pointer;}
+.open-search[rel="absolute"]{position: absolute; top: 50%;}
+.open-search[rel="relative"]{position: relative;}
+.open-search.on{background: none!important;}
+.open-search.on:before,
+.open-search.on:after{position: absolute; content: ''; width: 70%; left: 15%; height: 3px; top: 50%; margin-top: -1.5px;background: #fff;transform: rotate(45deg);-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);}
+.open-search.on:after{transform: rotate(-45deg);-webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);}
+.top-search{position: relative;display: none;padding-right: 50px;}
+.top-search[rel="absolute"]{position: absolute; top: 100%; right: 0; z-index: 100; width: 100%;max-width: 320px;}
+.top-search .text{width: 100%; height: 44px; line-height: 44px; border: 0;background: #fff; padding: 0 10px;color: #999;}
+.top-search .text.focus{color: #333;}
+.top-search .btn{position: absolute; right: 0; top: 0; height: 100%; width: 50px;background-repeat: no-repeat;background-position: center center;}
+/*******************************
+open-menu
+********************************/
+@media(max-width:1024px){
+body.menu-show{overflow: hidden;}
+.open-menu{z-index: 10; width: 40px; height: 40px;}
+.open-menu[rel="relative"]{position: relative;}
+.open-menu[rel="absolute"]{position: absolute; top: 50%; transform: translateY(-50%);}
+.open-menu i{position: absolute; width: 100%; height: 3px; background: #fff; left: 0; top: 50%; margin-top: -1.5px; transition: 0.3s;}
+.open-menu:not(.on) i:nth-child(1){margin-top: -10px;}
+.open-menu:not(.on) i:nth-child(3){margin-top: 8px;}
+.open-menu.on i:nth-child(2){opacity: 0;}
+.open-menu.on i:nth-child(1){transform: rotate(-45deg);}
+.open-menu.on i:nth-child(3){transform: rotate(45deg);}
+}
+/*************************************
+whir_menu.2.0
+**************************************/
+@media(min-width:1025px){
+.top-sub{position: absolute; top: 100%; z-index: 100;}
+}
+@media(max-width:1024px){
+.has-sub span{position: relative;padding-right: 40px; overflow: hidden;}
+.has-sub span .op{position: absolute; width: 40px; height: 100%; height: 100%; transition: 0.3s; right: 0; top: 0;}
+.has-sub span .op.click{transform: rotate(45deg);}
+.has-sub span .op:before,
+.has-sub span .op:after{position: absolute; content: ''; width: 12px; height: 2px;background: #fff; left: 50%; top: 50%; transform: translate(-50%,-50%);}
+.has-sub span .op:after{ width: 2px; height: 12px;}
+}
+[rel="li-relative"] li{position: relative; z-index: 100;}
+[type="Vertical"] .sub{display: none;}
+[type="Vertical"] .sub dl{padding: 10px;}
+[type="Vertical"] .sub dt{line-height: 24px; padding: 5px 0; text-align: center;}
+@media(min-width:1025px){
+[type="Vertical"] .sub dl{background: rgba(255,255,255,0.85);}
+[rel="li-relative"] .sub{left: 50%; width: 140px; margin-left: -70px;}
+}
